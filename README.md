@@ -102,11 +102,12 @@ To install archiso system-wide use the included Makefile:
 The iso image contains a GRUB environment block holding the iso name and version. This allows to
 boot the iso image from GRUB with a version specific cow directory to mitigate overlay clashes.
 
+``sh
 loopback loop archlinux.iso
 load_env -f (loop)/arch/grubenv
 linux (loop)/arch/boot/x86_64/vmlinuz-linux ... \
     cow_directory=${NAME}/${VERSION} ...
-initrd (loop)/arch/boot/x86_64/initramfs-linux-lts.img
+initrd (loop)/arch/boot/x86_64/initramfs-linux-lts.img``
 
 ### Contribute
 
@@ -117,9 +118,9 @@ Please read our distribution-wide Code of Conduct before contributing, to unders
 Read our contributing guide to learn more about how to provide fixes or improvements for the code
 base.
 
-Discussion around archiso takes place on the arch-releng mailing list and in #archlinux-releng on Libera Chat.
+Discussion around archiso takes place on the arch-releng mailing list and in *#archlinux-releng* on Libera Chat.
 
-All past and present authors of archiso are listed in AUTHORS.
+All past and present authors of archiso are listed in **AUTHORS**.
 
 ### Releases
 
