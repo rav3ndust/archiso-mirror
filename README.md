@@ -1,5 +1,5 @@
 # archiso-mirror
-A ccpy of archiso from the Arch Linux Gitlab. Mirrored here for my (and your) convenience.
+A copy of archiso from the Arch Linux Gitlab. Mirrored here for my (and your) convenience.
 
 You can find the official repo [here](https://gitlab.archlinux.org/archlinux/archiso). I will be trying to keep this mirror in sync with its original repo.
 
